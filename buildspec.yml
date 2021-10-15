@@ -3,8 +3,8 @@ version: 0.2
 phases:
   install:
     commands:
-        - apt install python
-        - apt install python-pip
+        - yum install python -y
+        - yum install python-pip -y
         - python -m pip install Flask
   build:
     commands:
